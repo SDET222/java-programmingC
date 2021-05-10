@@ -1,0 +1,17 @@
+package day02_println_print_practice;
+
+public class PrintingPractice {
+    public static void main(String[] args){
+        System.out.println("apples");
+        System.out.println("");
+        System.out.print("tomatos,");
+        System.out.print("potatos");
+        System.out.println("");
+        System.out.println("pears");
+
+
+
+
+    }
+
+}
