@@ -35,12 +35,12 @@ public class SortLettersAndNumbers {
         }
         String [] arr = result.split("#");
 
-        for (int i = 0; i < result.length(); i++) {
+        for (int i = 0; i < arr.length; i++) {
 
             char [] ch =  arr[i].toCharArray();
             Arrays.sort(ch);
 
-            sorted+=ch[i];
+            sorted+=String.valueOf(ch);
         }
 
 
