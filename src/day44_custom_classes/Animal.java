@@ -10,5 +10,8 @@ public class Animal {
     public void speak() {
         System.out.println("Our animal speaks");
     }
+    public void eat(String food) {
+        System.out.println("Our animal is eating " + food);
+    }
 
 }
