@@ -10,20 +10,15 @@ public class RemoveDuplicates {
 
     public static String uniqueChars(String str) {
         String nonDup = "";
-        int count = 0;
+
         for (int i = 0; i < str.length() - 1; i++) {
-            count = 0;
-            for (int j = 0; j < str.length(); j++) {
-                if (str.charAt(i) != str.charAt(j)) {
-                    count++;
 
 
+                if (!nonDup.contains(""+str.charAt(i))) {
+                    nonDup += str.charAt(i);
 
                 }
 
-            } if (count==2){
-                nonDup += "" + str.charAt(i);
-            }
 
         }return nonDup;
 
