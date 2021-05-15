@@ -8,7 +8,7 @@ import java.util.List;
 public class pangram2 {
     public static void main(String[] args) {
 
-        String str = "A quick brown fox jumps over the lazy dog";
+        String str = "Back in June we delivered oxygen equipment of the same size";
 
         str = str.toLowerCase();
 
