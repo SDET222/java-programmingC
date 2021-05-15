@@ -18,7 +18,7 @@ public class Pangram {
         List<Character> ch2 = new ArrayList<>();
         List<Character> ch1 = new ArrayList<>();
 
-        for (char chr = 'a'; chr <= 'z'; chr++) {
+        for (char chr = 'a';  chr <= 'z'; chr++) {
             ch2.add(chr);
         }
 
