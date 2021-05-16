@@ -25,6 +25,32 @@ public class CoffeTest {
 
         System.out.println(espresso.toString());
 
+        Coffee c1 = new Coffee();
+
+        c1.Settype("cappuccino");
+
+        System.out.println("c1 type = " + c1.getType());
+
+        Coffee c2= c1;
+
+        System.out.println("c2 type = " + c2.getType());
+        c2.Settype("americano");
+        System.out.println("c2.getType() = " + c2.getType());
+        System.out.println("c1.getType() = " + c1.getType());
+
+        Coffee c3 = new Coffee();
+
+        c3.Settype("frappucino");
+
+
+        c3=c2;
+
+        System.out.println("c3 type = " + c3.getType());
+
+        Coffee n4 = null;
+
+        n4.Settype("Java");
+
 
 
     }

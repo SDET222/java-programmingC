@@ -7,28 +7,38 @@ import java.util.List;
 public class Holydays {
     public static void main(String[] args) {
 
-        List<String> holidays = new ArrayList<>();
+        ArrayList<String> holidays = new ArrayList<>();
 
 
-        holidays.set(1,"New Years day, Martin Luther King, Jr. Day");
-        holidays.set(2,"President’s Day");
-        holidays.set(5,"Memorial Day");
-        holidays.set(6,"Independence Day");
-        holidays.set(9,"Labor Day");
-        holidays.set(10,"Columbus Day");
-        holidays.set(11,"Veterans Day, Thanksgiving Day");
-        holidays.set(12,"Christmas Day");
+        holidays.add(0,"New Years day, Martin Luther King, Jr. Day");
+        holidays.add(1,"President’s Day");
+        holidays.add(2,null);
+        holidays.add(3,null);
+        holidays.add(4,"Memorial Day");
+        holidays.add(5,"Independence Day");
+        holidays.add(6,null);
+        holidays.add(7,null);
+        holidays.add(8,"Labor Day");
+        holidays.add(9,"Columbus Day");
+        holidays.add(10,"Veterans Day, Thanksgiving Day");
+        holidays.add(11,"Christmas Day");
+        holidays.add(12,null);
 
-        System.out.println(listOfHolidays(holidays,2));
+
+
+
+
+
+        System.out.println(listOfHolidays(holidays,1));
 
 
     }
-    public static List<String> listOfHolidays (List<String> list, int n) {
+    public static ArrayList<String> listOfHolidays (ArrayList<String> list, int n) {
 
-        List<String> listN = new ArrayList<>();
+        ArrayList<String> listN = new ArrayList<>();
 
         if (n>=1 && n<=12) {
-            listN.add(list.get(n));
+            listN.add(list.get(n-1));
             return listN;
         } else {
             return null;
