@@ -6,8 +6,8 @@ import java.util.List;
 public class Pangram {
     // A Pangram is a String that contains all of the letters in the alphabet.
     public static void main(String[] args) {
-
-        System.out.println(isPangram("A quick brown fox jumps over the lazy dog"));
+        String str = "A quick brown fox jumps over the lazy dog";
+        System.out.println(isPangram(str));
 
     }
 
@@ -28,7 +28,8 @@ public class Pangram {
 //            }
         }
 
-
+        System.out.println(ch1);
+        System.out.println(ch2);
         return ch1.containsAll(ch2);
     }
 }
