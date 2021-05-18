@@ -4,7 +4,7 @@ public class SumOfDigitsInString {
 
     public static void main(String[] args) {
 
-        String str = "ABC4D5";
+        String str = "ABC4D5n4l9";
         System.out.println(sumOfDigits(str));
 
     }
