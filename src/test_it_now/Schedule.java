@@ -4,8 +4,11 @@ public class Schedule {
     public static void main(String[] args) {
 
 
-        Random random = new Random();
-        int x = random.nextInt(10);
+        int x = 1;
+        int x2 = 2;
+        int x3 = 3;
+        int x4 = 4;
+
 
 
 
