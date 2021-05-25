@@ -32,4 +32,25 @@ public class Pangram {
         System.out.println(ch2);
         return ch1.containsAll(ch2);
     }
+
+    public static boolean isPangram2 (String str ){
+        str = str.toLowerCase();
+        String alp = "abcdefghijklmnopqrstuvwxyz";
+
+        for(int i=0; i < str.length(); i++ ){
+
+            if(Character.isLetter(str.charAt(i))){
+                alp = alp.replace("" + str.charAt(i), "");
+                // System.out.println(str.charAt(i) + " " + alp);
+            }
+
+            if(alp.isEmpty()){
+                break;
+            }
+
+        }
+
+        return alp.isEmpty();
+    }
+
 }

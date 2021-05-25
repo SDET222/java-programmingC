@@ -6,7 +6,7 @@ public class ReversLettersOnly {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
-        System.out.println(reverseNoSpec(in.next()));
+        System.out.println(reverseNoSpec(in.nextLine()));
 
 
 

@@ -3,17 +3,32 @@ import java.util.*;
 public class Schedule {
     public static void main(String[] args) {
 
-
-        int x = 1;
-        int x2 = 2;
-        int x3 = 3;
-        int x4 = 4;
-
-
+        int p = 3;
+        System.out.println(findWaysToPair(p));
 
 
 
 
 
     }
+
+    static int findWaysToPair(int p)
+    {
+        // To store count of number of ways.
+        int dp[] = new int[p + 1];
+
+        dp[1] = 1;
+        dp[2] = 2;
+
+        // Using the recurrence defined find
+        // count for different values of p.
+        for (int i = 3; i <= p; i++)
+        {
+            dp[i] = dp[i - 1] + (i - 1) * dp[i - 2];
+        }
+
+        return dp[p];
+    }
+
+
 }
