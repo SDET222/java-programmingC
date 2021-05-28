@@ -2,11 +2,27 @@ package day47_constractros1;
 
 public class Address {
 
-   private String street;
+    private String street;
     private String city;
     private String state;
     private String zipCode;
     private String country = "USA";
+
+    //constructor
+    public Address() {
+        System.out.println("Address constructor");
+
+        street = "Park Street";
+        city = "Malibu";
+        state = "California";
+        zipCode = "01001";
+
+    }
+
+    public Address(String city) {
+        this.city=city;
+    }
+
 
     public String getCountry() {
         return country;
@@ -50,6 +66,6 @@ public class Address {
 
     @Override
     public String toString() {
-        return street+ ", "+ city + ", " + zipCode + ", "+country;
+        return street + ", " + city + ", " + state +" "+zipCode+ ", " + country;
     }
 }
