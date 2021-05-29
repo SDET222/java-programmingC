@@ -1,4 +1,4 @@
-package day47_constractros1;
+package day47_constructros1;
 
 public class Address {
 
