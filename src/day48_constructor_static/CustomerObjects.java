@@ -33,6 +33,7 @@ public class CustomerObjects {
         customerArr [3] = new Customer("Trump", "T001");
 
         System.out.println("==============================");
+        System.out.println(customerArr[0].toString());
 
         System.out.println("customerArr = " + Arrays.toString(customerArr));
 
@@ -46,8 +47,23 @@ public class CustomerObjects {
 
 
         System.out.println("==========================");
+
+        System.out.println(customerList.get(0));
         System.out.println("customerList = " + customerList);
 
+        System.out.println("==========================================");
+
+        for (Customer each:customerList) {
+            System.out.println(each);
+        }
+
+        System.out.println("==================names of customers======================");
+
+        for (Customer each:customerList) {
+            System.out.println(each.getName());
+
+        }
+        //customerList.forEach(each -> System.out.println(each.getName()));
 
     }
 }
