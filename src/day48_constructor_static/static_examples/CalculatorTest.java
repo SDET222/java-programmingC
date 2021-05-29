@@ -10,6 +10,8 @@ public class CalculatorTest {
 
         c.multiply(2,2);
 
+        c.add(5,5);  //accessed via instance reference
+
 
 
 
