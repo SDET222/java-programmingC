@@ -7,6 +7,10 @@ public class Tester {
     private String jobTitle;
     private double salary;
 
+    public Tester() {
+
+        System.out.println("Constructor no args 1...");
+    }
 
         public Tester(String name, int employeeId, String jobTitle, double salary) {
 

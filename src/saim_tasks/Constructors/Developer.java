@@ -6,7 +6,13 @@ public class Developer {
     private int employeeId;
     private String jobTitle;
     private double salary;
-    private boolean hasCodingSkills;
+    private static boolean hasCodingSkills=true;
+
+    public Developer () {
+
+
+        System.out.println("No args constuctor");
+    }
 
 
     public Developer (String name, int employeeId, String jobTitle, double salary, boolean hasCodingSkills) {
@@ -15,7 +21,7 @@ public class Developer {
         setJobTitle(jobTitle);
         setEmployeeId(employeeId);
         setSalary(salary);
-        setHasCodingSkills(hasCodingSkills);
+
 
 
     }
@@ -64,9 +70,7 @@ public class Developer {
         return hasCodingSkills;
     }
 
-    public void setHasCodingSkills(boolean hasCodingSkills) {
-        this.hasCodingSkills = hasCodingSkills;
-    }
+
 
     @Override
     public String toString() {
