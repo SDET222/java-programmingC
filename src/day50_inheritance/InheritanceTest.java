@@ -30,5 +30,17 @@ public class InheritanceTest {
 
         System.out.println(t1.name);
 
+        Student s = new Student();
+        s.name = "Ali";
+        s.age = 23;
+        s.work("Developer");
+
+        System.out.println("s.age = " + s.age);
+
+        s.learn("QA");
+
+        s.talk();
+        s.walk();
+
     }
 }
