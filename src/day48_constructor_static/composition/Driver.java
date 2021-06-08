@@ -1,4 +1,4 @@
-package day48_constructor_static;
+package day48_constructor_static.composition;
 
 public class Driver {
 
