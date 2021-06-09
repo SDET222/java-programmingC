@@ -10,5 +10,10 @@ public class Contractor extends Employee {
         return 50 * 40 * hourlyRate;
     }
 
-
+    @Override
+    public String toString() {
+        return "Contractor{" +
+                "jobTitle='" + jobTitle + '\'' +
+                '}';
+    }
 }
