@@ -17,5 +17,20 @@ public class Discord extends MobileApp{
         chat("Murodil");
     }
 
+    @Override
+
+    public boolean download() {
+
+        System.out.println("Downloading Discord 0.0.23 from App Store");
+        return true;
+    }
+
+            public void printInfo() {
+
+                System.out.println("App Name = " + getName());
+
+                System.out.println("App version = " + getVersion());
+
+            }
 
 }
