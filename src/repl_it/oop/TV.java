@@ -28,7 +28,7 @@ public class TV {
 
     public void setChannel(int channel) {
 
-        if (channel>0&&channel<=120) {
+        if (isOn()==true&&channel>0&&channel<=120) {
 
             this.channel = channel;
         } else {
@@ -43,7 +43,7 @@ public class TV {
 
     public void setVolumeLevel(int volumeLevel) {
 
-            if (isOn()==true && volumeLevel>=0 && volumeLevel <=7) {
+            if (isOn()==true && volumeLevel>=0 && volumeLevel <7) {
                 this.volumeLevel = volumeLevel;
             } else {
                 System.out.println("ERROR: TV is either OFF or invalid Volume level");
