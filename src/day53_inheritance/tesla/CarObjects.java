@@ -14,7 +14,13 @@ public class CarObjects {
         System.out.println("ec1 range = "+ ec1.getRange());
         System.out.println("ec1 year = "+ ec1.getYear());
 
+        System.out.println(ElectricCar.getCount());
 
+        ElectricCar ec2 = new ElectricCar("Tesla","Cybertruck",69900.0,2021,300);
+
+        System.out.println(ec2);
+
+        System.out.println(ElectricCar.getCount());
 
 
 
