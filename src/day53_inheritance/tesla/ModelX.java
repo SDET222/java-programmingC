@@ -7,6 +7,12 @@ public class ModelX extends ElectricCar {
         super("Tesla", model, price, year, range);
     }
 
+    /**
+     * ERROR because charge is final METHod can;t be overridden
+     */
+    //public void charge() {
+
+   // }
 
 
 }

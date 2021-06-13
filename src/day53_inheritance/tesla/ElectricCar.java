@@ -1,12 +1,20 @@
 package day53_inheritance.tesla;
 
-public class ElectricCar {
+public class ElectricCar extends Object {
     private String make;
     private String model;
     private double price;
     private int year;
     private int range;
     private static int count;
+    public static final int MAX_Range = 400;
+
+    public final void charge() {
+        System.out.println("Charging the EV using Super Charge");
+        this.range=MAX_Range;
+    }
+
+
 
     public ElectricCar(String make, String model, double price, int year, int range) {
          setMake(make);
