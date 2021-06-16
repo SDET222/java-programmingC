@@ -7,4 +7,6 @@ public class OnlineStudent extends Student{
         System.out.println("Attending class");
     }
 
+    // public abstract void  askQuestion(); ERROR: abstract method can't be in normal class
+
 }
