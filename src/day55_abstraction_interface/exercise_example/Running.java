@@ -1,4 +1,4 @@
-package day55_abstraction_interface;
+package day55_abstraction_interface.exercise_example;
 
 public class Running extends Exercise{
 

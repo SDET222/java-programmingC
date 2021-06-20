@@ -1,4 +1,4 @@
-package day55_abstraction_interface;
+package day55_abstraction_interface.exercise_example;
 
 public abstract class Lifting extends Exercise{
 
