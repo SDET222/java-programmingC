@@ -4,6 +4,9 @@ import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 public class ChromeDriver implements WebDriver{
 
+    public ChromeDriver(){
+        System.out.println("Launching new ChromeBrowser");
+    }
 
 
     @Override
