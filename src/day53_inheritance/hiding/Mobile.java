@@ -10,13 +10,13 @@ public class Mobile extends Phone{
      * we are hiding use() static method
      */
     public static void use() {
-        System.out.println("Using mobile phone");
+        System.out.println("Using mobile phone Child");
 
     }
     public void text() {
 
        use();
-        System.out.println("and sending a text message");
+        System.out.println("and sending a text message Child");
 
     }
 

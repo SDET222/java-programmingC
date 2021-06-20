@@ -5,6 +5,10 @@ public abstract class Student {
         System.out.println("Student is coding using "+ language);
     }
 
+    public Student() {
+        System.out.println("I'm constructor from parent Student");
+    }
+
     public abstract void attendClass();
 
 }
