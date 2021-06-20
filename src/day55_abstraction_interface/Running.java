@@ -5,12 +5,12 @@ public class Running extends Exercise{
 
     @Override
     public void perform() {
-
+        System.out.println("Performing running exercise");
     }
 
     @Override
     public int getCalories(int minutes) {
-        return 0;
+        return minutes*13;
     }
 
 
