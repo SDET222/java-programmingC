@@ -13,6 +13,14 @@ public class GreetingActions {
         gt.hi();
         gt.bye();
 
+        Japanese jp = new Japanese();
+        jp.hi();
+        jp.bye();
+
+        gt=new Japanese();
+
+        gt.hi();
+        gt.bye();
 
 
 
