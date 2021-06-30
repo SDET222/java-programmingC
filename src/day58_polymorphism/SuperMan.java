@@ -1,6 +1,6 @@
 package day58_polymorphism;
 
-public class SuperMan implements Worker {
+public class SuperMan extends Father implements Worker {
 
 
     @Override
