@@ -28,7 +28,7 @@ public class InstanceOf {
 
         WebElement el = new Link();
         System.out.println("object class name of el variable = " + el.getClass().getSimpleName());
-        System.out.println(el.getClass().getDeclaredFields());
+        //System.out.println(el.getClass().getDeclaredFields());
 
 
 
