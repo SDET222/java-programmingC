@@ -27,12 +27,12 @@ public class StringIndexIssue {
             System.out.println(word2.substring(0,19));
 
         } catch (StringIndexOutOfBoundsException e) {
-            System.out.println("Another exception caught -->" + e.getMessage());
-            System.out.println("Another exception caught -->" + e.getClass().getSimpleName());
 
+            System.out.println("Another exception caught -->" + e.getClass().getSimpleName());
+            System.out.println("Reason -->" + e.getMessage());
         }
 
-
+        System.out.println("THE END");
 
     }
 }
