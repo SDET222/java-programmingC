@@ -13,7 +13,8 @@ public class FinallyBlock {
             System.out.println("Enter a number:");
             int num = scan.nextInt();
             System.out.println("Next number is: " + ++num);
-            System.exit(0); // finally will not run
+            System.out.println(num/0);
+            //System.exit(0); // finally will not run
 
         } catch(InputMismatchException e){
             System.out.println("Invalid value");
