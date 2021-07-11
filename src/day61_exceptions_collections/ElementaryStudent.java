@@ -5,17 +5,25 @@ public class ElementaryStudent {
     private String name;
     private int age;
 
+    public ElementaryStudent(String name, int age) {
+        setName(name);
+        setAge(age);
+    }
+
+    public ElementaryStudent() {
+       //empty constructor
+    }
+
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
         if(name==null || name.isEmpty()) {
-            throw new IllegalArgumentException("Name can't be empty");
-        }else{
-
-            this.name = name;
+            throw new IllegalArgumentException("Name can't be empty or null");
         }
+        this.name = name;
+
     }
 
     public int getAge() {
@@ -25,9 +33,15 @@ public class ElementaryStudent {
     public void setAge(int age) {
         if(age<5 || age>12){
             throw new IllegalArgumentException("Age cannot be < 5 or > 12");
-        } else{
-
-            this.age = age;
         }
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "ElementaryStudent{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
