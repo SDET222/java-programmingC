@@ -11,12 +11,12 @@ public class CustomExceptionTest {
         System.out.println("Lets continue the class");
 
         int balance = 400;
-        int itemPrice = 500;
+        int itemPrice = 700;
 
         if(itemPrice>balance) {
             throw new InsufficientBalanceException("Transaction declined. Not enough funds");
         }
-        System.out.println("Item successfully purchased");
+        System.out.println("Item successfully purchased for $"+itemPrice);
         System.out.println("<><><><><><><><><><><><><><><><><><><><><><><><><><><>");
 
 
