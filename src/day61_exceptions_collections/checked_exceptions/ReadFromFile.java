@@ -17,11 +17,13 @@ public class ReadFromFile {
             System.out.println(line);
         }
 
+        try {
+            int[] nums = {2,4,5};
+            System.out.println(nums[5]);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
-
-
-
-
-
+        System.out.println("<><><><><><><><><><><><><><>");
     }
 }

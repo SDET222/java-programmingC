@@ -7,5 +7,7 @@ public class BreakTimeException extends RuntimeException{
 
     public BreakTimeException(String message) {
         super(message);
+
+        //try finally
     }
 }
