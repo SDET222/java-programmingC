@@ -9,4 +9,22 @@ testng
 jira
 api
 
-
+Alabama 	Maine	Pennsylvania
+Alaska	Maryland	Rhode Island
+Arizona	Massachusetts	South Carolina
+Arkansas	Michigan	South Dakota
+California	Minnesota	Tennessee
+Colorado	Mississippi	Texas
+Connecticut	Missouri	Utah
+Delaware	Montana	Vermont
+District of Columbia	Nebraska	Virginia
+Florida	Nevada	Washington
+Georgia	New Hampshire	West Virginia
+Hawaii	New Jersey	Wisconsin
+Idaho	New Mexico	Wyoming
+Illinois	New York	American Samoa
+Indiana	North Carolina	Guam
+Iowa	North Dakota	Northern Mariana Islands
+Kansas	Ohio	Palau
+Kentucky	Oklahoma	Puerto Rico
+Louisiana	Oregon	Virgin Islands
