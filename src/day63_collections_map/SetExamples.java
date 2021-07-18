@@ -1,9 +1,6 @@
 package day63_collections_map;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class SetExamples {
         public static void main(String[] args) {
@@ -39,6 +36,41 @@ public class SetExamples {
                 System.out.println("wordsList.get(0) = " + wordsList.get(0));
                 System.out.println("wordsList = " + wordsList);
 
+                words.remove("Lambo");
+                System.out.println(words);
+
+                System.out.println("====================================");
+                //LinkedHashSet insertion order is maintained!
+
+                Set<String> linkedHashSet = new LinkedHashSet<>();
+                linkedHashSet.add("24");
+                linkedHashSet.add("java");
+                linkedHashSet.add("java");
+                linkedHashSet.add("#%&$");
+                linkedHashSet.add("4");
+                linkedHashSet.add("4");
+                linkedHashSet.add("apple");
+                linkedHashSet.add("hashset");
+                linkedHashSet.add("hashmap");
+
+                System.out.println("linkedHashSet = " + linkedHashSet);
+
+                //treeSet  alphabetical/leksographical, numeral, natural order
+
+                Set<String> treeSet = new TreeSet<>();
+                treeSet.add("24");
+                treeSet.add("java");
+                treeSet.add("java");
+                treeSet.add("#%&$");
+                treeSet.add("4");
+                treeSet.add("4");
+                treeSet.add("apple");
+                treeSet.add("hashset");
+                treeSet.add("hashmap");
+
+                System.out.println("treeSet = " + treeSet);
+
+               // ((TreeSet)treeSet).
 
         }
 
