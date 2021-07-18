@@ -25,7 +25,7 @@ public class MapExp2 {
         System.out.println(map2);
 
         System.out.println("====================================");
-// order sorted, does not except null!
+// order sorted, does not except null key!
         Map<Integer,Person> map3 = new TreeMap<>();
         map3.put(12,new Person("Bob",33));
         map3.put(0,new Person("",44));
