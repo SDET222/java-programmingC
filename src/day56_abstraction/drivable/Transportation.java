@@ -4,6 +4,7 @@ public abstract class Transportation {
 //    public Transportation(){
 //
 //    }
+
     public abstract void transportPeople();
     public abstract void cost(int mile);
 
