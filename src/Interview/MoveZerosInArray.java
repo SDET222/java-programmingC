@@ -6,6 +6,10 @@ import java.util.List;
 
 public class MoveZerosInArray {
     public static void main(String[] args) {
+
+        String str [] = new String[3];
+        System.out.println(Arrays.toString(str));
+
         int[] nums = {0,23,0,0,44,12,0,2,0,40,550,450,54};
 
         System.out.println(Arrays.toString(moveZeros(nums)));
@@ -28,5 +32,9 @@ public class MoveZerosInArray {
         }
         return arr;
 
+
+
     }
+
+
 }

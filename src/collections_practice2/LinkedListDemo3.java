@@ -28,7 +28,7 @@ public class LinkedListDemo3 {
         System.out.println("After remove first "+l);
 
         l.removeLast();
-        System.out.println("After remove lastt "+l);
+        System.out.println("After remove last "+l);
 
 
 

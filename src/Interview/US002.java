@@ -1,8 +1,7 @@
 package Interview;
 
-public class US0101 {
+public class US002 {
     public static void main(String[] args) {
 
     }
-
 }
